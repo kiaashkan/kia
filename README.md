@@ -18,7 +18,7 @@
 # Install & Upgrade
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/kia/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/kiaashkan/kia/master/install.sh)
 ```
 
 # Install custom version
