@@ -125,8 +125,8 @@ install_x-ui() {
             exit 1
         fi
         echo -e "Got x-ui latest version: ${last_version}, beginning the installation..."
-        wget -N --no-check-certificate -O /usr/local/x-ui-linux-$(arch3xui).tar.gz https://github.com/kiaashkan/kia/releases/download/${last_version}/x-ui-linux-$(arch3xui).tar.gz
-        if [[ $? -ne 0 ]]; then
+wget -N --no-check-certificate -O /usr/local/x-ui-linux-$(arch3xui).tar.gz https://github.com/kiashkan/kia/releases/download/1.0.0/x-ui-linux-$(arch3xui).tar.gz
+if [[ $? -ne 0 ]]; then
             echo -e "${red}Downloading x-ui failed, please be sure that your server can access Github ${plain}"
             exit 1
         fi
